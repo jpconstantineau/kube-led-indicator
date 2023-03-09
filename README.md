@@ -6,16 +6,18 @@
 
 ## Hardware
 
-``` mermaid
-flowchart LR
-    Raspberry Pi --> Serial Port (USB) --> Trinkey
+```mermaid
+graph LR;
+    Raspberry Pi --> Serial Port (USB);
+    Serial Port (USB) --> Trinkey;
 ```
 
 ## Software
 
-``` mermaid
-flowchart LR
-    Nodejs API --> Serial Port --> CircuitPython Code
+```mermaid
+graph LR;
+    Nodejs API --> Serial Port;
+    Serial Port --> CircuitPython Code;
 ```
 
 # Indicator Hardware
