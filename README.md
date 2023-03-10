@@ -7,17 +7,17 @@
 ## Hardware
 
 ```mermaid
-graph LR;
-    Raspberry Pi --> Serial Port (USB);
-    Serial Port (USB) --> Trinkey;
+graph LR
+    A[Raspberry PI] --> B
+    B[Serial Port] --> C[Trinkey]
 ```
 
 ## Software
 
 ```mermaid
-graph LR;
-    Nodejs API --> Serial Port;
-    Serial Port --> CircuitPython Code;
+graph LR
+    A[Nodejs API] --> B
+    B[Serial Port] --> C[CircuitPython Code]
 ```
 
 # Indicator Hardware
